@@ -542,6 +542,7 @@ const update = function(instance, properties, context) {
     d.last_update_props.autobinding = bbcode
     instance.publishAutobinding(bbcode)
     instance.publishState("value", bbcode)
+    instance.publishState("value_html", d.quill.root.innerHTML)
 
     instance.triggerEvent('value_changes', (err) => {
       if (err) {
@@ -945,6 +946,7 @@ const update = function(instance, properties, context) {
 
 
     instance.publishState('value', bbcode)
+    instance.publishState("value_html", d.quill.root.innerHTML)
   }
 
   const should_reinitialize = () => {
@@ -1151,7 +1153,6 @@ const update = function(instance, properties, context) {
     d.prev_contents = content_bbcode
     d.has_been_reconciled = true
   }
-
   d.has_been_reconciled = false
   $(document).ready(reconcile)
 }
