@@ -1,0 +1,71 @@
+<style>
+    
+    blockquote {
+        border-left: 4px solid #ccc;
+   		margin-bottom: 5px;
+    	margin-top: 5px;
+        padding-left: 16px;
+    }
+    
+    ul, ol {
+    	list-style-position: outside;
+    }
+    
+    .ql-font .ql-picker-label:first-child::before {
+    	font-family: inherit;    
+        overflow: hide;
+    }
+    
+    .ql-font .ql-picker-label {
+        overflow: hidden;
+    }
+    
+    .regular-header-icon {
+        color: #444;
+    }
+    
+    .tooltip-header-icon {
+        color: #ccc;
+    }
+    
+    .ql-picker.ql-variables {
+      width: 120px;
+    }
+
+    .ql-picker.ql-variables .ql-picker-item::before, 
+    .ql-picker.ql-variables .ql-picker-label::before {
+      content: 'Custom'
+    }
+
+    .ql-picker.ql-variables [data-value="1"]::before {
+      content: 'Account Url'
+    }
+
+    .ql-picker.ql-variables [data-value="2"]::before {
+      content: 'First Name'
+    }
+
+    .ql-picker.ql-variables [data-value="3"]::before {
+      content: 'Login'
+    }
+
+    .ql-picker.ql-variables [data-value="4"]::before {
+      content: 'Org Name'
+    }
+
+    .ql-picker.ql-variables [data-value="5"]::before {
+      content: 'Support Email'
+    }
+    
+</style>
+
+<script>
+
+/**
+ * This custom type of Blot is used to represent a Mention.
+ * It stores 2 values, a Name and an ID.
+ * The Name is used as a text to display within the input.
+ */
+    
+
+</script>

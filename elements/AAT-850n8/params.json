@@ -1,0 +1,172 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "autobinding_value": "text",
+    "category": "input forms",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Adv Rich Text Input",
+    "events": {
+        "AAi": {
+            "caption": "value_changes",
+            "name": "value_changes"
+        }
+    },
+    "fields": {
+        "AAU": {
+            "caption": "Placeholder",
+            "editor": "DynamicValue",
+            "name": "placeholder",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "Initial Content",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "initial_content",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "⚠️Initial content is ignored if autobinding is enabled",
+            "editor": "Label",
+            "name": "label_autobinding_vs_initial_content",
+            "rank": 2
+        },
+        "AAX": {
+            "caption": "Link input placeholder",
+            "default_val": "https://bubble.io/",
+            "editor": "DynamicValue",
+            "name": "link_placeholder",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "Regular or Tooltip?",
+            "default_val": "Regular",
+            "editor": "Dropdown",
+            "in_style": true,
+            "name": "theme",
+            "options": "Regular,Tooltip",
+            "rank": 4
+        },
+        "AAZ": {
+            "caption": "Style Complexity",
+            "default_val": "Basic",
+            "editor": "Dropdown",
+            "in_style": true,
+            "name": "complexity",
+            "options": "Basic,Medium,Full",
+            "rank": 5
+        },
+        "AAa": {
+            "caption": "Extend to fit",
+            "default_val": false,
+            "doc": "",
+            "editor": "Checkbox",
+            "name": "overflow",
+            "rank": 6
+        },
+        "AAb": {
+            "caption": "Enable autosave",
+            "default_val": true,
+            "doc": "Enabling autosave updates the editor's value state every few seconds. Otherwise, the value will update when you click out of the element.Enabling autosave updates the editor's value state every few seconds. Otherwise, the value will update when you click out of the element.",
+            "editor": "Checkbox",
+            "name": "autosave",
+            "rank": 7
+        },
+        "AAc": {
+            "caption": "This input shouldn't be empty",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "empty_is_invalid",
+            "rank": 8
+        },
+        "AAd": {
+            "caption": "This input is disabled ",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "disabled",
+            "rank": 9
+        },
+        "AAo": {
+            "caption": "Allow Text Insertion",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "allow_text_insertions",
+            "optional": true,
+            "options": "",
+            "rank": 10,
+            "value": "boolean"
+        },
+        "AAt": {
+            "caption": "Dropdown within Editor",
+            "default_val": false,
+            "doc": "This enables a dropdown menu within the toolbar of the text editor. Users can select and insert text from this section.",
+            "editor": "DynamicValue",
+            "name": "text_insertion_dropdown",
+            "rank": 11,
+            "value": "boolean"
+        },
+        "AAu": {
+            "caption": "text insertion list",
+            "doc": "List of texts to insert via text insertion dropdown within the text editor toolbar",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "text_insertion_list",
+            "optional": true,
+            "rank": 12,
+            "value": "text"
+        }
+    },
+    "icon": "ion-code-working",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAe": {
+            "caption": "value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\treturn properties.initial_content || '';\n\n}\n"
+            },
+            "name": "value",
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "value_is_valid",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\tif (properties.empty_is_invalid) {\n\t\treturn !!properties.initial_content || properties.bubble.auto_binding()\n\t}\n\treturn true;\n}\n"
+            },
+            "name": "value_is_valid",
+            "value": "boolean"
+        },
+        "AAg": {
+            "caption": "field_is_focused",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\treturn false;\n\n}"
+            },
+            "name": "field_is_focused",
+            "value": "boolean"
+        },
+        "AAn": {
+            "caption": "value_html",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "value_html",
+            "value": "text"
+        }
+    },
+    "support_autobinding": true
+}

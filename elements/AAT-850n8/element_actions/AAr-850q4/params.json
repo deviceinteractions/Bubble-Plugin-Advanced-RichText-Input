@@ -1,0 +1,12 @@
+{
+    "caption": "Insert Text",
+    "fields": {
+        "AAs": {
+            "caption": "Text Value",
+            "editor": "DynamicValue",
+            "name": "text_value",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

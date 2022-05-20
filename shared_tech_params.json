@@ -1,0 +1,80 @@
+{
+    "assets": {
+        "AAC": {
+            "name": "basic text styles",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984343641x732773842192692100/basic_styles.png"
+        },
+        "AAD": {
+            "name": "basic text alignment",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984360369x588624056575108200/basic_align.png"
+        },
+        "AAE": {
+            "name": "font",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984384340x492387405990395200/font.png"
+        },
+        "AAF": {
+            "name": "size",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984397648x478329821560685700/size.png"
+        },
+        "AAG": {
+            "name": "text styles",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984417628x516210413050888000/text_styles.png"
+        },
+        "AAH": {
+            "name": "superscript / subscript",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984445693x110807684953927230/sup_sub.png"
+        },
+        "AAI": {
+            "name": "titles + quotes + code",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984465420x846446158345320800/titles_quote_code.png"
+        },
+        "AAJ": {
+            "name": "media",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984480106x393650961798107460/media.png"
+        },
+        "AAK": {
+            "name": "remove styling",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984503583x162484520361852800/remove_style.png"
+        },
+        "AAL": {
+            "name": "image resize",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984521915x131432146130986420/image-resize.min.js.txt"
+        },
+        "AAM": {
+            "name": "color + highlight",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984540201x583146735300536200/text_color.png"
+        },
+        "AAN": {
+            "name": "list",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984559961x324562868331102140/list.png"
+        },
+        "AAO": {
+            "name": "indent + align",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984590525x337688004196649200/indent_align.png"
+        },
+        "AAP": {
+            "name": "font styles",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984609726x326851343754845900/rte-fonts.css.txt"
+        },
+        "AAQ": {
+            "name": "all titles",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984627362x491667932453776700/all%20titles.png"
+        },
+        "AAR": {
+            "name": "medium formats",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984656442x432037356441919550/medium%20formats.png"
+        },
+        "AAS": {
+            "name": "code + quotes",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643984671620x474698865852986940/code%20quotes.png"
+        },
+        "AAm": {
+            "name": "text_color",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1644040308364x347451774225640640/text_color.png"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}

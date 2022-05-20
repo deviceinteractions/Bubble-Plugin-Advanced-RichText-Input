@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "data (things)"
+    },
+    "demo_page": "https://blur-apps-playground.bubbleapps.io/version-test/admin?debug_mode=true",
+    "description": "This is an advanced Rich Text Input based on Bubble's Rich Text Input plugin\n\nCurrent feature list:\n1. Get the RichText value as HTML (from element's properties)\n2. Insert Custom text into the Rich Text Input via Workflows ",
+    "image": "//s3.amazonaws.com/appforest_uf/f1644041104073x713887165882189300/Advanced.png",
+    "license": "open_source",
+    "link": "https://blurapps.com",
+    "name": "Advanced RichText Input",
+    "plugin_instructions": "Install the plugin and use the Advanced Richtext Input as a text input element.\n\nGet RichText value as HTML:\n- HTML value is accessible as a property of this element via Dynamic Data ('Adv RichText InputA's value_html')\n\nCustom text/variables can be inserted at the caret position via Workflows\n- New Action in a WF -> Element Actions -> Insert Text in a Adv RichText Input\n- This Action takes dynamic text as an input and inserts it into the input field when the WF is run"
+}
